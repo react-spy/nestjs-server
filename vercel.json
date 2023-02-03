@@ -1,4 +1,8 @@
 {
+  "name": "nestjs-server",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "version": 2,
   "builds": [
     {
