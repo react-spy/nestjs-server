@@ -14,6 +14,20 @@ export class CrawlingController {
     return this.crawlingService.getData();
   }
 
+  @Get('list')
+  getList() {
+    return [
+      {
+        id: 1,
+        name: '张三',
+      },
+      {
+        id: 2,
+        name: '李四',
+      },
+    ];
+  }
+
   @Get('/app')
   getAllData() {
     return this.appService.getHello();
